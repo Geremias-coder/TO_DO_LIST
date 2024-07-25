@@ -8,10 +8,10 @@ Este projeto consiste em um sistema de lista de tarefas (To-Do List), desenvolvi
 
 ## Layout web
 
-# Tela inicial
+## Tela inicial
 ![Web 1](https://github.com/Geremias-coder/assets/blob/main/To_Do/web-1.png)
 
-# Tela com tarefas adicionadas 
+## Tela com tarefas adicionadas 
 ![Web 2](https://github.com/Geremias-coder/assets/blob/main/To_Do/web-2.png)
 
 ## Tela de edição 
