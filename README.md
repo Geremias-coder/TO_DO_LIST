@@ -22,40 +22,23 @@ Este projeto consiste em um sistema de lista de tarefas (To-Do List), desenvolvi
 ## Back end
 - JavaScript
 ## Front end
-- HTML / CSS / 
+- HTML
+- CSS
 
 # Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
-
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/Geremias-coder/Lista-de-tarefas-ToDo-.git
 
-# entrar na pasta do projeto back end
-cd backend
+# Editor de código utilizado
+- Visual Studio Code 
 
-# executar o projeto
-./mvnw spring-boot:run
-```
+# Editor de código-fonte
+1 - Instale o Visual Studio Code 
+2 - abrir o projeto no Visual Studio Code
+3 - Extenção recomendada ( Live Server ) para visualizar o projeto em tempo real
+4 - No VS Code, clique com o botão direito no arquivo index.html e selecione “Open with Live Server”
 
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
 
 # Autor
 
