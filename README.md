@@ -17,6 +17,7 @@ Este projeto consiste em um sistema de lista de tarefas (To-Do List), desenvolvi
 ## Tela de edição 
 ![Web 3](https://github.com/Geremias-coder/assets/blob/main/To_Do/web-3.png)
 
+
 # Tecnologias utilizadas
 ## Back end
 - JavaScript
@@ -60,5 +61,5 @@ yarn start
 
 Geremias Rodrigues Nunes
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/geremias-rodrigues-nunes-b75163214/
 
