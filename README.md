@@ -19,9 +19,9 @@ Este projeto consiste em um sistema de lista de tarefas (To-Do List), desenvolvi
 
 
 # Tecnologias utilizadas
-## Back end
+### Back end
 - JavaScript
-## Front end
+### Front end
 - HTML
 - CSS
 
