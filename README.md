@@ -7,29 +7,21 @@ Este projeto consiste em um sistema de lista de tarefas (To-Do List), desenvolvi
 
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+# Tela inicial
+![Web 1](https://github.com/Geremias-coder/assets/blob/main/To_Do/web-1.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+# Tela com tarefas adicionadas 
+![Web 2](https://github.com/Geremias-coder/assets/blob/main/To_Do/web-2.png)
+
+## Tela de edição 
+![Web 3](https://github.com/Geremias-coder/assets/blob/main/To_Do/web-3.png)
 
 # Tecnologias utilizadas
 ## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+- JavaScript
 ## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- HTML / CSS / 
 
 # Como executar o projeto
 
@@ -66,7 +58,7 @@ yarn start
 
 # Autor
 
-Wellington Mazoni de Andrade
+Geremias Rodrigues Nunes
 
 https://www.linkedin.com/in/wmazoni
 
