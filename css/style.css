@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(/imagem/painting-mountain-lake-with-mountain-background.jpg.jpeg);
+  background-image: url(/imagem_fundo/painting-mountain-lake-with-mountain-background.jpg.jpeg);
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-size: cover; /* Cobrir todo o elemento pai */
   background-position: center; /* Centraliza a imagem */
