@@ -1,4 +1,4 @@
-// Seleção de elementos
+// Seleciona elementos do DOM com base no seletor CSS fornecido. Esses elementos são armazenados em variáveis para facilitar a manipulação posterior.
 const todoForm = document.querySelector("#todo-form");
 const todoInput = document.querySelector("#todo-input");
 const todoList = document.querySelector("#todo-list");
@@ -9,9 +9,16 @@ const searchInput = document.querySelector("#search-input");
 const eraseBtn = document.querySelector("#erase-button");
 const filterBtn = document.querySelector("#filter-select");
 
+// oldInputValue: Armazena o valor antigo de uma tarefa quando está sendo editada. Isso é necessário para atualizar a tarefa corretamente no armazenamento local.
 let oldInputValue;
 
-// Funções
+
+
+
+// Cria um novo item de tarefa e adiciona à lista de tarefas. text: O texto da tarefa. done: Se a tarefa está concluída (0 ou 1). save: Se a tarefa deve ser salva no armazenamento local (por padrão é 1).
+// Funcionalidade : Cria um novo elemento <div> para a tarefa. Adiciona um título (<h3>) com o texto da tarefa. 
+// Adiciona botões para concluir, editar e remover a tarefa. Adiciona a tarefa à lista e, se necessário, salva no armazenamento local.
+
 const saveTodo = (text, done = 0, save = 1) => {
   const todo = document.createElement("div");
   todo.classList.add("todo");
@@ -49,7 +56,9 @@ const saveTodo = (text, done = 0, save = 1) => {
   todoInput.value = "";
 };
 
-const toggleForms = () => {
+// Propósito: Alterna entre os formulários de adição e edição, além de ocultar ou mostrar a lista de tarefas. 
+// Funcionalidade: Usa classList.toggle para adicionar ou remover a classe hide que controla a visibilidade dos formulários e da lista.
+const toggleForms = () => { 
   editForm.classList.toggle("hide");
   todoForm.classList.toggle("hide");
   todoList.classList.toggle("hide");
@@ -151,7 +160,7 @@ document.addEventListener("click", (e) => {
     removeTodoLocalStorage(todoTitle);
   }
 
-  if (targetEl.classList.contains("edit-todo")) {
+  if (targetEl.classList.contains("edit-todo")) { 
     toggleForms();
 
     editInput.value = todoTitle;
@@ -170,7 +179,7 @@ editForm.addEventListener("submit", (e) => {
   const editInputValue = editInput.value;
 
   if (editInputValue) {
-    updateTodo(editInputValue);
+    updateTodo(editInputValue); 
   }
 
   toggleForms();
