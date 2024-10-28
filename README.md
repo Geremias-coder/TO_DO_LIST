@@ -36,13 +36,11 @@ git clone https://github.com/Geremias-coder/Lista-de-tarefas-ToDo-.git
 # Como executar o projeto
 1 - Instalar o Visual Studio Code 
 2 - abrir o projeto no Visual Studio Code
-3 - Extenção recomendada ( Live Server ) para visualizar o projeto em tempo real
+3 - Extenção indicada ( Live Server ) para visualizar o projeto em tempo real
 4 - No VS Code, clique com o botão direito no arquivo index.html e selecione “Open with Live Server”
 
 
 # Autor
-
 Geremias Rodrigues Nunes
-
 https://www.linkedin.com/in/geremias-rodrigues-nunes-b75163214/
 
